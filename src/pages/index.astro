@@ -1,0 +1,113 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+---
+
+<Layout title="AbdulRasheed Bello - Software Developer">
+  <Header />
+  
+  <!-- Hero Section -->
+  <section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-blue-700 text-white pt-16">
+    <div class="container mx-auto px-6 py-20" data-aos="fade-up">
+      <div class="text-center">
+        <h1 class="text-5xl font-bold mb-4">AbdulRasheed Bello</h1>
+        <p class="text-xl mb-8">.NET Software Developer | Graphics Designer | Civil Engineer</p>
+        <a href="#contact" class="bg-white text-blue-700 px-8 py-3 rounded-full font-semibold hover:bg-blue-50 transition">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">About Me</h2>
+      <div class="grid md:grid-cols-2 gap-12">
+        <div data-aos="fade-right">
+          <img 
+            src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
+            alt="Professional workspace" 
+            class="rounded-lg shadow-lg"
+          />
+        </div>
+        <div data-aos="fade-left">
+          <p class="text-gray-600 mb-6">
+            Passionate and dedicated software developer with extensive experience in C#, .NET, and graphics designing. With a strong foundation in backend development and a keen eye for design, I bring a unique blend of technical and creative skills to every project.
+          </p>
+          <div class="mb-6">
+            <h3 class="text-xl font-semibold mb-3">Core Expertise:</h3>
+            <ul class="list-disc list-inside text-gray-600">
+              <li>C# and .NET Development</li>
+              <li>Graphics Design</li>
+              <li>Building Information Modeling (BIM)</li>
+              <li>Database Management</li>
+              <li>Version Control (Git/GitHub)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="py-20 bg-gray-50">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">Professional Experience</h2>
+      <div class="space-y-8">
+        <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up">
+          <h3 class="text-xl font-semibold">Graphic Designer</h3>
+          <p class="text-gray-600">TeliyTech LTD | London Area, United Kingdom</p>
+          <p class="text-gray-500">September 2024 - Present</p>
+        </div>
+        
+        <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up">
+          <h3 class="text-xl font-semibold">Software Developer and Engineer</h3>
+          <p class="text-gray-600">Mirza Ghulam qadir Shaheed IT.Lab and research center</p>
+          <p class="text-gray-500">June 2023 - Present</p>
+        </div>
+
+        <div class="bg-white p-6 rounded-lg shadow-md" data-aos="fade-up">
+          <h3 class="text-xl font-semibold">Software Engineer</h3>
+          <p class="text-gray-600">Ahmadiyya Muslim Community | Nigeria</p>
+          <p class="text-gray-500">June 2022 - Present</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-white">
+    <div class="container mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12" data-aos="fade-up">Get in Touch</h2>
+      <div class="max-w-2xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-8" data-aos="fade-up">
+          <div class="text-center md:text-left">
+            <h3 class="text-xl font-semibold mb-4">Contact Information</h3>
+            <p class="mb-2">
+              <span class="font-semibold">Phone:</span> 
+              <a href="tel:09074866640" class="text-primary">09074866640</a>
+            </p>
+            <p class="mb-2">
+              <span class="font-semibold">Email:</span> 
+              <a href="mailto:akindats@gmail.com" class="text-primary">akindats@gmail.com</a>
+            </p>
+            <p class="mb-2">
+              <span class="font-semibold">LinkedIn:</span> 
+              <a href="https://www.linkedin.com/in/abdulrasheedbello" class="text-primary" target="_blank">abdulrasheedbello</a>
+            </p>
+          </div>
+          <div class="text-center md:text-left">
+            <h3 class="text-xl font-semibold mb-4">Location</h3>
+            <p>Abeokuta South, Ogun State, Nigeria</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-8">
+    <div class="container mx-auto px-6 text-center">
+      <p>&copy; {new Date().getFullYear()} AbdulRasheed Bello. All rights reserved.</p>
+    </div>
+  </footer>
+</Layout>
